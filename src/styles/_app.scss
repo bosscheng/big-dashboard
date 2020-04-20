@@ -1,0 +1,136 @@
+@import "var";
+
+.d-chart-item {
+  position: absolute;
+
+  .chart-item {
+    position: relative;
+    height: 100%;
+    background: rgba(14, 36, 59, 0.59);
+    overflow: hidden;
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 17px;
+      height: 15px;
+      background: url("../assets/border-arrow.png");
+      left: 0;
+      bottom: 0;
+    }
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 17px;
+      height: 15px;
+      background: url("../assets/border-arrow.png");
+      right: 0;
+      bottom: 0;
+      transform: rotate(-90deg);
+    }
+
+    .arrow-top-left {
+      position: absolute;
+      content: '';
+      width: 17px;
+      height: 15px;
+      background: url("../assets/border-arrow.png");
+      left: 0;
+      top: 0;
+      transform: rotate(90deg);
+    }
+
+    .arrow-top-right {
+      position: absolute;
+      content: '';
+      width: 17px;
+      height: 15px;
+      background: url("../assets/border-arrow.png");
+      right: 0;
+      top: 0;
+      transform: rotate(180deg);
+    }
+  }
+}
+
+
+.dashboard-top, .dashboard-top-big {
+  position: absolute;
+  top: -31px;
+  left: -2px;
+
+
+  .dashboard-top-title {
+    position: relative;
+    font-size: 18px;
+    color: #77C6FF;
+    width: 155px;
+    text-align: center;
+    line-height: 31px;
+    overflow: hidden;
+    height: 100%;
+  }
+}
+
+.dashboard-top {
+  width: 453px;
+  height: 31px;
+  background: url("../assets/db-top2.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.dashboard-top-big {
+  width: 462px;
+  height: 31px;
+  background: url("../assets/db-top-big2.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.item-loading{
+  text-align: center;
+  line-height: 200px;
+  font-size: 16px;
+  color: rgba(92, 197, 227, 1);
+}
+
+.bg-color1 {
+  background-color: $team1;
+}
+
+.bg-color2 {
+  background-color: $team2;
+}
+
+.bg-color3 {
+  background-color: $team3;
+}
+
+.bg-color4 {
+  background-color: $team4;
+}
+
+.bg-color5 {
+  background-color: $team5;
+}
+
+.bg-color6 {
+  background-color: $team6;
+}
+
+.bg-color7 {
+  background-color: $team7;
+}
+
+.bg-color8 {
+  background-color: $team8;
+}
+
+.bg-color9 {
+  background-color: $team9;
+}
+
+.bg-color10 {
+  background-color: $team10;
+}
