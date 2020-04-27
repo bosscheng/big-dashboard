@@ -30,15 +30,8 @@
     import Dashboard3 from '../components/Dashboard3';
     import Dashboard4 from '../components/Dashboard4';
 
-
     export default {
         name: "Dashboard",
-        timeInterval: null,
-        timeInterval1: null,
-        timeInterval2: null,
-        timeInterval3: null,
-        websocket: null,
-        websocketMsgList: [],
         data() {
             return {
                 scaleX: 1,
