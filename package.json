@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "vue": "^2.6.10",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
