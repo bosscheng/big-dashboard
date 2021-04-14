@@ -80,8 +80,9 @@ export default {
       // sacle 缩放比例。
       let scaleX = 1;
       let scaleY = 1;
+      //
       if (this.lock) {
-        scaleY = scaleY = containerWidth / defaultWidth;
+        scaleX = scaleY = containerWidth / defaultWidth;
       } else {
         scaleX = containerWidth / defaultWidth;
         scaleY = containerHeight / defaultHeight;

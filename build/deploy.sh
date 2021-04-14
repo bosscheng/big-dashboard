@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # cd 到构建输出的目录下
-cd dist
+cd ../dist
 
 git init
 git add -A
