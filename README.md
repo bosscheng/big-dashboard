@@ -1,5 +1,9 @@
 # dashboard
 
+
+## 系列文章
+[基于vue的可视化大屏开发](https://juejin.cn/post/6844904141865615368)
+
 ## Project setup
 ```
 yarn install
