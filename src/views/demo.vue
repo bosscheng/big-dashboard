@@ -1,7 +1,11 @@
 <template>
   <div class="wrap">
-    <router-link to="/demo1" class="item">demo1</router-link>
-    <router-link to="/demo2" class="item">demo2</router-link>
+    <router-link to="/demo1" class="item">以1920等比例缩放</router-link>
+    <br>
+    <router-link to="/demo2" class="item">占满全屏</router-link>
+    <br>
+    <router-link to="/demo3" class="item">根据屏幕等比例缩放</router-link>
+
   </div>
 </template>
 

@@ -9,6 +9,7 @@ export default new Router({
         {path: '', component: () => import('./views/demo')},
         {path: '/demo1', component: () => import('./views/Dashboard')},
         {path: '/demo2', component: () => import('./views/Dashboard2')},
+        {path: '/demo3', component: () => import('./views/Dashboard4')},
         {path: '*', redirect: '',},
     ]
 })
